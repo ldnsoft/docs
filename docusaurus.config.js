@@ -9,7 +9,7 @@ const config = {
   title: "Lodine Documentation",
   tagline: "Learn how to use our products and services",
   favicon: "img/favicon.ico",
-  url: "https://docs.lodine.xyz",
+  url: "https://magical-peony-cbdb96.netlify.app",
   baseUrl: "/",
 
   organizationName: "ldnsoft",
