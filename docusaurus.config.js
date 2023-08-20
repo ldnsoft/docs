@@ -9,10 +9,10 @@ const config = {
   title: "Lodine Documentation",
   tagline: "Learn how to use our products and services",
   favicon: "img/favicon.ico",
-  url: "https://magical-peony-cbdb96.netlify.app",
+  url: "https://docs.lodine.xyz",
   baseUrl: "/",
 
-  organizationName: "ldnsoft",
+  organizationName: "lodine-software",
   projectName: "docs",
 
   onBrokenLinks: "throw",
@@ -35,7 +35,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/ldnsoft/docs/tree/main",
+          editUrl: "https://github.com/lodine-software/docs/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
