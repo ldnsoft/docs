@@ -28,3 +28,28 @@
   --ifm-color-primary-lightest: #ff87c7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.hero__title {
+  color: #fff;
+}
+
+[data-theme="dark"]
+.navbar {
+  background: #131313;
+  border-bottom: 1px solid hsl(0, 0%, 20%);
+}
+
+[data-theme="dark"]
+body {
+  background: #131313;
+}
+
+[data-theme="dark"]
+.footer {
+  background: #0f0f0f;
+}
+
+[data-theme="light"]
+.footer {
+  background: #d6d6d6;
+}

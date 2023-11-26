@@ -55,15 +55,19 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            to: "docs/introduction",
             position: "left",
             label: "Documentation",
+          },
+          {
+            href: "https://lodine.xyz",
+            position: "right",
+            label: "lodine.xyz",
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
             title: "Community",
@@ -83,7 +87,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Lodine. Powered by Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lodine`,
       },
       prism: {
         theme: require('prism-react-renderer/themes/vsDark')
